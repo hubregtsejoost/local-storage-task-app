@@ -45,6 +45,10 @@
     opacity: 0.7;
 }
 
+i:hover {
+    opacity: 0.5;
+}
+
 #taskContainer {
     display: flex;
     width: 100%;
