@@ -1,38 +1,24 @@
 # Local Storage Task App
 
-A simple, modern task management application that persists tasks using browser's local storage. This web application allows users to create, complete, and delete tasks that remain available even after page refresh.
+A simple task application that stores the tasks in local storage and can be updated by marking a task as completed.
 
 ## Features
 
-- ✨ Create new tasks with a clean, intuitive interface
+- Create new tasks
 
-- ✅ Mark tasks as complete/incomplete
+- Mark tasks as complete/incomplete
 
-- 🗑️ Delete tasks
+- Delete tasks
 
-- 💾 Automatic local storage persistence
+- Stores tasks and task status in local storage
 
-- 📱 Responsive design
-
-- 🎨 Modern UI with Font Awesome icons
-
-## Technologies Used
-
-- HTML5
-
-- CSS3
-
-- JavaScript (Vanilla)
-
-- Font Awesome Icons
+- "Form validation" so you can't create multiple open tasks at once and have to save the current open task to create another task.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Any modern web browser (Chrome, Firefox, Safari, Edge)
-
-- No additional dependencies required
+- Just any browser will do.
 
 ### Installation
 
@@ -48,7 +34,7 @@ git clone https://github.com/hubregtsejoost/notes-app.git
 cd notes-app
 ```
 
-3. Open `index.html` in your web browser or use a local server to run the application.
+3. Open `index.html` in your browser or use a local server to run the application.
 
 ## Usage
 
@@ -67,9 +53,9 @@ cd notes-app
 ```
 notes-app/
 ├── app/
-│   └── script.js      # Main JavaScript functionality
+│   └── script.js      # Main JS functionality
 ├── styles/
-│   └── main.css       # Application styles
+│   └── main.css       # CSS styles
 └── index.html         # Main HTML file
 ```
 
@@ -81,9 +67,9 @@ notes-app/
 
 - Edit tasks before saving
 
-- Mark tasks as complete with a visual indicator
+- Able to mark a task as completed
 
-- Delete tasks with a single click
+- Delete tasks
 
 ### Data Persistence
 
@@ -92,20 +78,6 @@ notes-app/
 - Tasks remain available after page refresh or browser restart
 
 - No server-side storage required
-
-### User Interface
-
-- Clean and modern design
-
-- Intuitive icons for all actions
-
-- Responsive layout that works on all devices
-
-- Visual feedback for user actions
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
