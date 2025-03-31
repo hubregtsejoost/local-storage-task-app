@@ -91,6 +91,9 @@ function createTaskElement(text, isCompleted = false){
 }
 
 function addTask() {
+    // disable button
+    addButton.disabled = true;
+
     const newTask = document.createElement('div');
     newTask.className = 'task';
 
@@ -123,7 +126,10 @@ function addTask() {
             });
 
             // save to local storage
-            saveTasks();  
+            saveTasks();
+
+            // re-enable button
+            addButton.disabled = false;
         }
     };
 
