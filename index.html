@@ -8,34 +8,32 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
     <title>Local Storage Task app</title>
   </head>
   <body>
-    <!-- All the content goes here -->
     <div id="appContainer">
-
-        <div class="headerContainer">
-            <div class="headerTitle">
-                <h1>Local Storage</h1>
-                <h1 style="opacity: 0.5">Task app</h1>
-            </div>
-
-            <button id="addButton">
-                <i class="fas fa-plus"></i>
-            </button>
-        </div>
-        
-        <p style="opacity: 0.5;">This app saves the created tasks in local storage to make sure they don’t disappear when refreshing the web page.</p>
-
-        <div id="taskContainer">
-            <!-- Tasks go here -->
+      <div class="headerContainer">
+        <div class="headerTitle">
+          <h1>Local Storage</h1>
+          <h1 style="opacity: 0.5">Task app</h1>
         </div>
 
+        <button id="addButton">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+
+      <p style="opacity: 0.5">
+        This app saves the created tasks in local storage to make sure they
+        don’t disappear when refreshing the web page.
+      </p>
+
+      <div id="taskContainer">
+        <!-- Tasks go here -->
+      </div>
     </div>
 
-    <!-- All the javascript goes here -->
-    <script src="./app/script.js">
-    </script>
+    <script src="./app/script.js"></script>
   </body>
 </html>
