@@ -109,6 +109,8 @@ function addTask() {
     saveButton.id = 'saveButton';
     saveButton.innerHTML = '<i class="fas fa-check"></i>';
 
+    setTimeout(() => taskInput.focus(), 0);
+
     // Function to handle saving the task
     const saveTaskHandler = () => {
         const taskText = taskInput.value.trim();
